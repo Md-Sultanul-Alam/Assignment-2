@@ -1,0 +1,403 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"poppins",sans-serif;
+	box-sizing:boder-box;
+}
+
+/*Header Page Start*/
+
+section{
+	position:relative;
+	height:800px;
+	width:100%;
+	background: url("bg.jpeg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center ;
+}
+header {
+	padding:0 0px;
+	height:59px;
+	width:100%;
+	box-sizing:boder-box;
+	background:rgba(255,255,255,.2);
+	box-shadow:0 5px 15px rgba(0,0,0,.2);
+	transparent: .5s;
+	
+}
+
+ul{
+	position:relative;
+	margin:0;
+	padding:0px;
+	display:flex;
+	float:right;
+	transparent: .5s;
+	background-position: center;
+}
+
+.navigation .LoginButton{
+	position:relative;
+	display: block;
+	background:transparent;
+	border:2px solid white;
+	outline:none;
+	padding: 8px 30px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	text-decoration:none;
+	color: White;
+	border-radius:10px;
+	font-weight: bold;
+	margin-top:12px;
+	margin-left:20px;
+	margin-right:5px;
+	transparent: .5s;
+}
+
+.navigation .LoginButton:hover{
+	background:White;
+	color:black;
+}
+
+.logo{
+	position:relative;
+	display: block;
+	padding: 0 5px;
+	text-decoration:none;
+	margin: 0 0;
+	float:left;
+	transparent: .5s;
+	font-weight: bold;
+	font-family: fantasy;
+	font-size:50px;
+	transparent: .5s;
+	color:White;
+}
+
+span{
+	color:crimson;
+}
+
+ul li{
+	list-style:none;
+}
+
+ul li a{
+	position:relative;
+	display: block;
+	padding: 10px 20px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	text-decoration:none;
+	color: White;
+	font-weight: bold;
+	transparent: .5s;
+}
+
+ul li a:hover{
+	background:crimson;
+	color:black;
+	border-radius:5px;
+}
+
+/*Header Page End*/
+
+/*Description Page Start*/
+
+.Description{
+	height:400px;
+	padding:70px;
+	color:lemonchiffon;
+	font-size:20px;
+	padding-top:10px;
+}
+
+
+.Description button{
+	height:40px;
+	color:white;
+	background:crimson;
+	font-size:15px;
+	padding:5px 25px;
+	margin-top:20px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	transparent:.2s;
+}
+
+.Description button:hover{
+	background:none;
+	border:2px solid crimson;
+}
+
+.head{
+	font-size:56px;
+	color:white;
+	font-weight:600;
+}
+.discount{
+	font-size:56px;
+	float:right;
+	color:white;
+	font-weight:600;
+}
+.discount:hover{
+	border:2px solid crimson;
+	border-radius:10px;
+	cursor:pointer;
+	background:White;
+	color:black;
+}
+/*Description Page End*/
+
+/*Login And Registration Page Start*/
+
+.wrapper{
+	position:relative;
+	width:400px;
+	height:600px;
+	background:transparent;
+	border:2px solid rgba(255,255,255, .5);
+	border-radius:20px;
+	backdrop-filter: blur(20px);
+	box-shadow:0 0 30px rgba(0,0,0, .5);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.wrapper .form-box{
+	width:100%;
+	padding:40px;
+}
+
+.form-box h2{
+	font-size:2em;
+	color:White;
+	text-align:center;
+}
+
+.input-box{
+	position:relative;
+	width:100%;
+	height:35px;
+	border-bottom:2px solid White;
+	margin:50px 0;
+}
+
+
+.input-box label{
+	position:left;
+	top:15%;
+	font-size:1em;
+	color:White;
+	font-weight:500px;
+	pointer-events: none;
+}
+
+.input-box input{
+	width:65%;
+	height:80%;
+	color:White;
+	border-color:White;
+	border-radius:10px;
+	outline-color:crimson;
+	background-color:crimson;
+	
+}
+
+.remember-forgot{
+	font-size: .9em;
+	font-weight:500px;
+	color: white;
+	margin:-15px 0 15px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.remember-forgot label input{
+	accent-color:crimson;
+	margin-right:3px;
+}
+.remember-forgot a{
+	color:White;
+	text-decoration:none;
+	cursor:pointer;
+}
+.remember-forgot a:hover{
+	text-decoration:underline;
+}
+
+.btn{
+	width:100%;
+	height:45px;
+	background:none;
+	border-color:crimson;
+	border-radius:10px;
+	cursor:pointer;
+	font-size:1em;
+	color:White;
+	font-weight:500;
+}
+
+.btn:hover{
+	background:White;
+	color:black;
+	border:none;
+}
+
+.login-register{
+	font-size:.9em;
+	color:White;
+	text-align:center;
+	font-weight:500;
+	margin:25px 0 10px;
+}
+
+.login-register p a{
+	color:White;
+	text-decoration:none;
+	font-weight:500;
+	cursor:pointer;
+}
+
+.login-register p a:hover{
+	text-decoration:underline;
+}
+
+/*Login And Registration Page End*/
+
+/*About Page Start*/
+
+.AboutPage{
+	text-align:center;
+	color:White;
+}
+
+.AboutPara{
+	text-align:justify;
+	color:White;
+	padding-left:10px;
+	padding-right:10px;
+}
+/*About Page End*/
+
+/*Contact Page Start*/
+.ContactPage{
+	text-align:center;
+	color:White;
+}
+
+.ContactPara{
+	color:White;
+	padding-left:50px;
+	padding-top:20px;
+	text-align:left;
+}
+
+.ContactPar{
+    color:White;
+	padding-right:50px;
+	padding-bottom:40px;
+	text-align:right;
+}
+
+.MapPage{
+	width:10px;
+	height:10px;
+	padding-left:400px;
+	padding-top:0px;
+}
+/*Contact Page End*/
+
+/*Gallery Page Start*/
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 300px;
+  padding-right:0px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color:white;
+}
+/*Gallery Page End*/
+
+/*Video Page Start*/
+.video {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 300px;
+  padding-right:0px;
+}
+
+.video:hover {
+  border: 1px solid #777;
+}
+
+.video iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.descname {
+  padding: 15px;
+  text-align: center;
+  color:white;
+}
+/*Video Page End*/
+
+/*Footer Start*/
+.Footer{
+	text-align:center;
+}
+/*Footer End*/ 
+
+/*office Page Start*/
+#customers {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(odd){background-color:DodgerBlue;}
+#customers tr:nth-child(even){background-color:Violet;}
+
+#customers tr:hover {background-color: crimson;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: Tomato;
+  color: white;
+}
+
+.imgsize{
+	height:90px;
+	width:90px;
+}
+/*office Page End*/
